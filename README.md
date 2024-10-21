@@ -112,7 +112,7 @@ Recommened using Python with virtualenv to avoid conflicts with other installed 
 
 - sudo apt -y install python3.x-venv python3.x-dev
 
-\# where "x" is 9, 10, 11 or 12 depending on the Python version
+-- where "x" is 9, 10, 11 or 12 depending on the Python version
 
 Next, create a virtual environment and install the necessary dependencies:
 
