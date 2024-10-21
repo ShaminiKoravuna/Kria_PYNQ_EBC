@@ -203,7 +203,7 @@ payer:
   update this path:
   # Set correct paths for libcaer if platform in ["linux", "linux2"]:
 
-  ` `libcaer\_include = "/usr/local/include/libcaer" # Updated path 
+  libcaer\_include = "/usr/local/include/libcaer" # Updated path 
 
   libcaer\_lib = "/usr/local/lib" # Updated path 
 
