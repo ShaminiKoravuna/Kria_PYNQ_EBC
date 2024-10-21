@@ -10,22 +10,7 @@ Link: <https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-s
 
 **Connecting Everything**
 
-![A circuit board with a fan and wires
-
-Description automatically generated](Aspose.Words.74ed720f-55d2-43da-a6ad-c75571746470.001.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Kria.png]
 
 There is also an option to connect to DisplayPort instead of HDMI, but for this, we must have a DisplayPort cable and a supported DisplayPort monitor. We can also connect a USB keyboard and mouse for an optimal experience.
 
