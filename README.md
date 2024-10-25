@@ -82,7 +82,7 @@ This can take a while, around 30 min. After one can connect to the JupyterLab vi
 
 Or IP:9090/lab password is *xilinx* (check the IP using ifconfig). 
 
-**Note: Restart Kria for the installation to be effective.***
+*Note: Restart Kria for the installation to be effective.*
 
 **Evaluation KIT - Gen3M VGA-CD 1.1 (Same steps for connecting to Kria & PYNQ)**
 
