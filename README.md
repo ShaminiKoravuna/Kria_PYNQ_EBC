@@ -112,7 +112,7 @@ Recommened using Python with virtualenv to avoid conflicts with other installed 
 
 - sudo apt -y install python3.x-venv python3.x-dev
 
--- where "x" is 9, 10, 11 or 12 depending on the Python version
+-> where "x" is 9, 10, 11 or 12 depending on the Python version
 
 Next, create a virtual environment and install the necessary dependencies:
 
@@ -175,14 +175,14 @@ Dependencies:
 
 Libcaer: 
 
-- ` `cd libcaer
+- cd libcaer
 - mkdir build
 - cd build
 - cmake ..
 - make
 - sudo make install
 
-`  `path :  Installing: /usr/local/lib/libcaer.so
+*path :  Installing: /usr/local/lib/libcaer.so*
 
 SWIG:
 
@@ -209,7 +209,7 @@ payer:
 
   # SWIG options to include the libcaer headers
 
-  ` `swig\_opts = ["-I/usr/local/include”]  #updated path
+  swig\_opts = ["-I/usr/local/include”]  #updated path
 
   if platform == "darwin": 
 
@@ -230,17 +230,17 @@ payer:
 
   error: 
 
-  >>> import pyaer
+  import pyaer
 
   Traceback (most recent call last):
 
-  `  `File "/pyaer/pyaer/\_\_init\_\_.py", line 23, in <module>
+  File "/pyaer/pyaer/\_\_init\_\_.py", line 23, in <module>
 
-  `    `from pyaer import libcaer\_wrap as libcaer  # noqa
+  from pyaer import libcaer\_wrap as libcaer  # noqa
 
-  `  `File "/pyaer/pyaer/libcaer\_wrap.py", line 10, in <module>
+  File "/pyaer/pyaer/libcaer\_wrap.py", line 10, in <module>
 
-  `    `from . import \_libcaer\_wrap
+  from . import \_libcaer\_wrap
 
   ImportError: libcaer.so.3: cannot open shared object file: No such file or directory
 
@@ -248,11 +248,11 @@ payer:
 
   Traceback (most recent call last):
 
-  `  `File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1, in <module>
 
-  `  `File "/pyaer/pyaer/\_\_init\_\_.py", line 25, in <module>
+  File "/pyaer/pyaer/\_\_init\_\_.py", line 25, in <module>
 
-  `    `raise ImportError(
+  raise ImportError(
 
   ImportError: libcaer might not be in the LD\_LIBRARY\_PATH or your numpy might not be the required version. Try to load \_libcaer\_wrap.so fromthe package directory, this will provide more information.
 
