@@ -141,11 +141,11 @@ There is no pre-compiled version of pybind11 available, so you need to install i
 
    **Option 1 - working from build folder**
 
-   To use OpenEB directly from the build folder, we need to update some environment variables using this script (which you may add to your ~/.bashrc to make it permanent):
+   To use OpenEB directly from the build folder, we need to update some environment variables using this script (which we may add to our ~/.bashrc to make it permanent):
 
 - source utils/scripts/setup\_env.sh
 
-Prophesee camera plugin is included in OpenEB, but you still need to copy the udev rules files in the system path and reload them so that your camera is detected with this command:
+Prophesee camera plugin is included in OpenEB, but we still need to copy the udev rules files in the system path and reload them so that your camera is detected with this command:
 
 - sudo cp <OPENEB\_SRC\_DIR>/hal\_psee\_plugins/resources/rules/\*.rules /etc/udev/rules.d
 - sudo udevadm control --reload-rules
@@ -156,7 +156,7 @@ Prophesee camera plugin is included in OpenEB, but you still need to copy the ud
 - To deploy OpenEB, launch the following command:
 - sudo cmake --build . --target install
 
-We  also need to update LD\_LIBRARY\_PATH and HDF5\_PLUGIN\_PATH (which we may add to your ~/.bashrc to make it permanent):
+We  also need to update LD\_LIBRARY\_PATH and HDF5\_PLUGIN\_PATH (which we may add to our ~/.bashrc to make it permanent):
 
 - export LD\_LIBRARY\_PATH=$LD\_LIBRARY\_PATH:/usr/local/lib
 - export HDF5\_PLUGIN\_PATH=$HDF5\_PLUGIN\_PATH:/usr/local/hdf5/lib/plugin  # On Ubuntu 22.04
