@@ -106,7 +106,7 @@ Supported SDK versions for the Cameras: <https://docs.prophesee.ai/stable/instal
 
 - sudo apt -y install libgtest-dev libgmock-dev
 
-For the Python API, we need Python and some additional libraries.Supported Python 3.9 and 3.10 on Ubuntu 22.04 and Python 3.11 and 3.12 on Ubuntu 24.04.
+For the Python API, we need Python and some additional libraries. Supported Python 3.9 and 3.10 on Ubuntu 22.04 and Python 3.11 and 3.12 on Ubuntu 24.04.
 
 Recommened using Python with virtualenv to avoid conflicts with other installed Python packages. So, first install it along with some Python development tools:
 
